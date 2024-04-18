@@ -12,4 +12,12 @@ Main benefits are:
 | pipeline.make_pipeline(*steps[, memory, verbose]) | Construct a Pipeline from the given estimators |
 | pipeline.make_union(*transformers[, n_jobs, ...]) | Construct a FeatureUnion from the given transformers |
 
+| Name | Description |
+| --- | --- |
+| compose.ColumnTransformer(transformers, *[, ...]) | Applies transformers to columns of an array or pandas DataFrame |
+| compose.TransformedTargetRegressor([...]) | Meta-estimator to regress on a transformed target |
+| compose.make_column_transformer(*transformers) | Construct a ColumnTransformer from the given transformers |
+| compose.make_column_selector([pattern, ...]) | Create a callable to select columns to be used with ColumnTransformer |
+
+
 
