@@ -1,21 +1,23 @@
-Recipe Steps using sklearn **compose** and **pipeline** (for all problems):
+### Recipe Steps using sklearn **compose** and **pipeline** (for all problems):
 * `from sklearn.compose import ColumnTransfomer`
 * `from sklearn.pipeline import Pipeline`
   
 ---
 
-Sklearn **preprocessing** required imports (based on problem dataset):
+### Sklearn **preprocessing** required imports (based on problem dataset):
 * `from sklearn.preprocessing import StandardScaler, MinMaxScaler, OneHotEncoder`
 
 ---
 
-Classification / Regression based powerful models and evaluation **metrics**:
+### Classification / Regression based powerful models and evaluation **metrics**:
 
+Models:
 * `from sklearn.ensemble import RandomForestClassifier`
 * `from sklearn.ensemble import RandomForestRegressor`
 * `from xgboost import XGBClassifier`
 * `from xgboost import XGBRegressor`
 
+Metrics:
 * `from sklearn.metrics import confusion_matrix, accuracy_score, f1_score, precision_recall_curve, precision_score, recall_score, roc_auc_score, roc_curve`
 * `from sklearn.metrics import r2_score, root_mean_squared_error, mean_absolute_error1`
  
