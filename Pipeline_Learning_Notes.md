@@ -1,19 +1,25 @@
 Recipe Steps using sklearn **compose** and **pipeline** (for all problems):
 * `from sklearn.compose import ColumnTransfomer`
 * `from sklearn.pipeline import Pipeline`
+  
+---
 
 Sklearn **preprocessing** required imports (based on problem dataset):
-* `sklearn.preprocessing import StandardScaler, MinMaxScaler, OneHotEncoder`
+* `from sklearn.preprocessing import StandardScaler, MinMaxScaler, OneHotEncoder`
 
-Classifer
+---
 
-Sklearn **reprocessing** required imports (based on problem dataset):
-* 
+Classification / Regression based powerful models and evaluation **metrics**:
 
-* Import `MinMaxScaler`, `StandardScaler` or `OneHotEncoder`
+* `from sklearn.ensemble import RandomForestClassifier`
+* `from sklearn.ensemble import RandomForestRegressor`
+* `from xgboost import XGBClassifier`
+* `from xgboost import XGBRegressor`
 
-**Supervised Model(s)** Import (based on problem dataset):
-* Import
+* `from sklearn.metrics import confusion_matrix, accuracy_score, f1_score, precision_recall_curve, precision_score, recall_score, roc_auc_score, roc_curve`
+* `from sklearn.metrics import r2_score, root_mean_squared_error, mean_absolute_error1`
+ 
+---
 
 
 ```
@@ -34,15 +40,4 @@ from sklearn.ensemble import RandomForestClassifier
 # evaluation metric
 from sklearn.metrics import accuracy_score
 ```
-
-
-**sklearn.preprocessing**
-
-| Name | Description |
-| --- | --- |
-| preprocessing.MinMaxScaler([feature_range, ...]) | Transform features by scaling each feature to a given range |
-| preprocessing.StandardScaler(*[, copy, ...]) | Standardize features by removing the mean and scaling to unit variance |
-| preprocessing.OneHotEncoder(*[, categories, ...])	| Encode categorical features as a one-hot numeric array |
-
-
 
