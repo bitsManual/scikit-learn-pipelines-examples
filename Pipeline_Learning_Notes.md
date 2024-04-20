@@ -19,10 +19,23 @@ Models:
 
 Metrics:
 * `from sklearn.metrics import confusion_matrix, accuracy_score, f1_score, precision_recall_curve, precision_score, recall_score, roc_auc_score, roc_curve`
-* `from sklearn.metrics import r2_score, root_mean_squared_error, mean_absolute_error1`
+* `from sklearn.metrics import r2_score, root_mean_squared_error, mean_absolute_error`
  
 ---
 
+### Train-Test Splitter Function
+
+`from sklearn.model_selection import train_test_split`
+
+---
+
+### Hyperparam tuning
+
+`from sklearn.model_selection import GridSearchCV`
+
+---
+
+Example code: 
 
 ```
 # column transformations
