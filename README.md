@@ -14,4 +14,8 @@ Main benefits are:
 | compose.ColumnTransformer(transformers, *[, ...]) | Applies transformers to columns of an array or pandas DataFrame |
 
 
+<a target="_blank" href="https://colab.research.google.com/github/bitsManual/scikit-learn-pipelines-examples/blob/main/load_iris_RandomForestClassifier.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 
